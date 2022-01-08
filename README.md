@@ -19,5 +19,7 @@ wifi-password
 # Get project tree
 brew install tree
 tree
-```
 
+# Open web console 
+Cmd + Option + K 
+```
