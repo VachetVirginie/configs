@@ -1,0 +1,25 @@
+# Please adapt and uncomment the following lines:
+        name = Vivi
+        email = vachetvirginie@gmail.com
+
+[color]
+	ui = true
+
+[alias]
+        # Commons.
+        co = checkout
+        cob = checkout -b
+        st = status
+        c = commit
+        cm = commit -m
+        cam = commit -am
+        br = branch
+        brd = branch -d
+        brD = branch -D
+        aa = add .
+        master = !git checkout master && git pull origin
+        poh = push origin HEAD
+        create = checkout -b
+        rename  = "!f() { branch_name=$(git rev-parse --abbrev-ref HEAD); git branch -m $1; git push origin $1; git push origin --delete $branch_name; }; f"
+[core]
+        excludesfile = /Users/vivi./.gitignore
