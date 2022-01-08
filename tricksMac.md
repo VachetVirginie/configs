@@ -13,11 +13,15 @@ To create an alias surf for this command:
 
     Open up your .bash_profile:
 
+```source-shell
 open ~/.bash_profile
+```
 
 1. Create a new alias surf by adding the following into the .bash_profile:
 
+```source-shell
 alias surf='open https://www.medium.com'
+```
 
 2. Save the file and restart Terminal.
 
@@ -34,9 +38,11 @@ This is the one I use a lot. It’s is a time saver when there is a complex comm
 To find earlier commands from your Terminal’s history:
 
     Open up Terminal.
+```source-shell
     Type Ctrl-R.
     Start typing (e.g. letters you remember from the command you’re searching for).
     As you type, the terminal keeps suggesting a command that matches what you’ve typed. To execute the suggested command, hit enter.
+```
 
 # Show Hidden Files and Folders
 
@@ -51,12 +57,15 @@ To hide these files back, run the above commands by replacing TRUE with FALSE.
 # Copy-Paste Files from Folder to Another
 
 Use ditto to copy and paste files from a folder to another. The general syntax is:
-
+```source-shell
 ditto [original_folder][new_folder]
+```
 
 For example, if you have a folder called folder1 and you want to create a new folder, folder2, and copy-paste the contents of folder1 there, just type:
 
+```source-shell
 ditto folder1 folder2
+```
 
 # Download Without Browser
 
@@ -64,19 +73,25 @@ If you don’t want to use the browser to download a file, Terminal can help.
 
 Before downloading with Terminal, notice that the downloaded file will end up in the directory where you currently are. So if you want it to end up in the Downloads, change directory there before downloading:
 
+```source-shell
 cd ~/Downloads/
+```
 
 To download the file, use cURL -O [URL_OF_THE_FILE].
 
 For example:
 
+```source-shell
 curl -O https://www.medium.com/example_download.txt
+```
 
 # Keep Your Mac Awake
 
 To disable your Mac from falling asleep, just type:
 
+```source-shell
 caffeinate
+```
 
 To stop caffeinating, just type Ctrl-C.
 
