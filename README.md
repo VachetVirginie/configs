@@ -3,6 +3,7 @@
 - ![Git config](./.gitconfig) 
 - ![Zshrc config](./.zshrc) 
 - ![Iterm](./iterm.md) 
+- ![Awesome Terminal Tips & Tricks for Mac Users](./tricksMac.md) 
 
 
 ### Helpful commands
