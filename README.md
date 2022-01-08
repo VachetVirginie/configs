@@ -1,8 +1,8 @@
 
 ![alt text](https://newrelic.com/sites/default/files/2021-04/good-programmer-banner-final.jpg)
-<p align="center">
+<p text-align="center">
   <h1>Personnal Config</h1>
-  <b>Some Links:</b><br>
+  <br>
   <a href="./.gitconfig">Git config</a> |
   <a href="./.zshrc">Zshrc config</a> |
   <a href="./iterm.md">Iterm</a>
