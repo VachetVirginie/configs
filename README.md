@@ -1,8 +1,8 @@
 # myConfigs
 
-![Git config](./.gitconfig) 
-![Zshrc config](./.zshrc) 
-![Iterm](./iterm.md) 
+- ![Git config](./.gitconfig) 
+- ![Zshrc config](./.zshrc) 
+- ![Iterm](./iterm.md) 
 
 
 ### Helpful commands
