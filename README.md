@@ -1,5 +1,7 @@
 # myConfigs
 
+![alt text](https://newrelic.com/sites/default/files/2021-04/good-programmer-banner-final.jpg)
+
 - ![Git config](./.gitconfig) 
 - ![Zshrc config](./.zshrc) 
 - ![Iterm](./iterm.md) 
