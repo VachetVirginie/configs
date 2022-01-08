@@ -1,6 +1,6 @@
 # myConfigs
 
-![.gitconfig](./.gitconfig) 
+![Git config](./.gitconfig) 
 
 ### Helpful commands
 
