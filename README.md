@@ -3,15 +3,15 @@
 <p align="center">
   <h1>Personnal Config</h1>
   <br>
+  <b></b>
   <a href="./.gitconfig">Git config</a> |
   <a href="./.zshrc">Zshrc config</a> |
   <a href="./iterm.md">Iterm</a>
-  <a href="./tricksMac.md">Awesome Terminal Tips & Tricks for Mac</a>
+  <a href="./tricksMac.md">Terminal Tips & Tricks for Mac</a>
   <br><br>
 </p>
 
 <p align="center">
-  <b>Some Links:</b><br>
   <a href="#">Link 1</a> |
   <a href="#">Link 2</a> |
   <a href="#">Link 3</a>
