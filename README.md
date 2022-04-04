@@ -26,7 +26,7 @@ tree
 
 # Open web console 
 Cmd + Option + K 
-```
 
 # Spectacle
 brew install --cask spectacle
+```
