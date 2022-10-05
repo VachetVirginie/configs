@@ -1,3 +1,9 @@
+# Please adapt and uncomment the following lines:
+[user]
+        name = Toto
+        email = toto@gmail.com
+	username = Toto
+
 [color]
 	ui = true
 
@@ -11,19 +17,22 @@
         cam = commit -am
         br = branch
         brd = branch -d
-        brD = branch -D
+        del = branch -D
         aa = add .
         master = !git checkout master && git pull origin
+	develop = !git checkout develop && git pull origin
+	main = !git checkout main && git pull origin
         poh = push origin HEAD
         newb = checkout -b
     	cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 -r git branch -d"
         rename = branch -m
 
 [core]
-        excludesfile = /Users/vivi./.gitignore
+        excludesfile = /Users/toto./.gitignore
     	repositoryformatversion = 0
 	filemode = true
 	bare = false
 	logallrefupdates = true
 	ignorecase = true
 	precomposeunicode = true
+
