@@ -31,7 +31,9 @@ Cmd + Option + K
 brew install --cask spectacle
 
 # Git 
-Envie de faire un peu de ménage ? Voilà une commande pour faire le grand ménage dans vos branches en local. Remplacez « master » par le nom de la branche que vous voulez garder. Attention si les branches supprimées n’ont pas été push, elle seront perdues.
+Envie de faire un peu de ménage ? Voilà une commande pour faire le grand ménage dans vos branches en local.
+Remplacez « master » par le nom de la branche que vous voulez garder.
+Attention si les branches supprimées n’ont pas été push, elle seront perdues.
 
 git branch | grep -v "master" | xargs git branch -D
 ```
